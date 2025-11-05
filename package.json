@@ -2,7 +2,7 @@
   "name": "reliefsync",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ashwinthomas03.github.io/reliefsync",
+  "homepage": ".",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@tailwindcss/postcss": "^4.1.16",
