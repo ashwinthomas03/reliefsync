@@ -4,11 +4,13 @@
   "private": true,
   "homepage": "https://ashwinthomas03.github.io/reliefsync",
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@tailwindcss/postcss": "^4.1.16",
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "emailjs-com": "^3.2.0",
     "framer-motion": "^12.23.24",
     "lucide-react": "^0.552.0",
     "react": "^19.2.0",
@@ -19,7 +21,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-     "predeploy": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
